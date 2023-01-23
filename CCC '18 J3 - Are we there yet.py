@@ -1,0 +1,12 @@
+distances = input()
+one, two, three, four = distances.split()
+one = int(one)
+two = int(two)
+three = int(three)
+four = int(four)
+
+print(0, one, one+two, one+two+three, one+two+three+four)
+print(one, 0, two, two+three, two+three+four)
+print(one+two, two, 0, three, three+four)
+print(one+two+three, two+three, three, 0, four)
+print(one+two+three+four, two+three+four, three+four, four, 0)
